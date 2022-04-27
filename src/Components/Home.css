@@ -1,0 +1,114 @@
+
+/* ---------------------------top div of the page ----------------------- */
+/* Get all user heading  */
+#get-users {
+    background-image: linear-gradient(aqua,rgb(255, 255, 255),rgb(113, 236, 252));
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#adminImg{
+    width: 40px;
+    height: 40px;
+}
+
+.container{
+    margin-top: 3rem;
+}
+
+#heading{
+    font-size: 40px;
+    font-family: monospace;
+}
+
+/* fetch button style  */
+#fetch {
+    font-size: medium;
+    margin-top: 10px;
+    padding: 10px 5px;
+    display: inline-block;
+}
+h1 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+/* button styles  */
+button{
+    background-color:#fd79a8;
+    height: 2rem;
+    color: white;
+    border-radius: 3rem;
+
+}
+
+/* hover on button  */
+button:hover{
+  
+    color: #2f3542;
+    
+}
+
+
+
+.search-box{
+    width: 100%;
+    margin:10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.search-box-container{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    vertical-align: middle;
+   
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 1.5px
+}
+
+#table{
+    width: 90%;
+    margin: auto;
+   
+}
+
+
+@media only screen and (max-width:850px){
+    #table{
+        width: 96%;
+    }
+    #heading{
+        font-size: 30px;
+    }
+    #adminImg{
+        width: 30px;
+        height: 30px;
+    }
+    .search-box{
+        margin:4px 10px;
+        font-size: 0.8rem;
+    }
+    .search-box-container{
+        width: 85%;
+  }
+}
+
+
+@media (max-width:566px){
+    
+    #heading{
+        font-size: 25px;
+    }
+    #adminImg{
+        width: 25px;
+        height: 25px;
+    }
+}
